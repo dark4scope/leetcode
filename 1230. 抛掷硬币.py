@@ -12,3 +12,6 @@ class Solution:
                     f[i][j] = f[i - 1][j - 1] * prob[i - 1] + f[i - 1][j] * (1 - prob[i - 1])
         
         return f[n][target]
+
+    
+    
